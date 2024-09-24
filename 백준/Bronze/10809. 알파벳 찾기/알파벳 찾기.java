@@ -17,12 +17,12 @@ public class Main {
 		for(int i = 0; i < S.length(); i++) {
 			char ch = S.charAt(i);
     
-			if(arr[ch - 'a'] == -1) {	// arr 원소 값이 -1 인 경우에만 초기화
+			if(arr[ch - 'a'] == -1) {
 				arr[ch - 'a'] = i;
 			}
 		}
  
-		for(int val : arr) {	// 배열 출력
+		for(int val : arr) {
 			System.out.print(val + " ");
 		}
 	}
